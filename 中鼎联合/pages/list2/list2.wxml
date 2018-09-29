@@ -1,0 +1,53 @@
+
+  <view class="page" style='height:1080rpx;overflow-y: scroll;' > 
+    <view class="about_title">
+      厨师长冬季推荐菜
+    </view>
+    <view class="detail-other" style='text-'>
+    <text class="date" style='margin-left:50rpx;'>2015-06-13</text>
+  </view>
+    <view class="about_title_info" style="margin-top:20rpx;">
+         <import src="../../wxParse/wxParse.wxml"/> 
+        <view class="wxParse" style='white-space: pre-wrap;'>
+               
+  冬季是万物生机潜伏闭藏的季节，此时天寒地冻人体血液循环减慢。中医认为，此时寒邪强盛，易伤及人体阳气，因此，冬季养生重在滋补。
+
+  冬季饮食宜滋补。冬季饮食养生的基本原则是要顺应体内阳气的潜藏，敛阳护阴。可适当选用羊肉、狗肉、虾、韭菜、桂圆、木耳、栗子、核桃、甲鱼等食物；多吃些薯类，如甘薯、马铃薯等；蔬菜类如大白菜、圆白菜、白萝卜、黄豆芽、绿豆芽、油菜等。
+
+  冬季忌食寒性物。冬三月草凋零、冰冻虫伏，是自然界万物闭藏的季节，人的阳气也要潜藏于内，脾胃功能相对虚弱，若再食寒凉，宜损伤脾胃阳气。因些冬季应少吃荸荠、柿子、生萝卜、生黄瓜、西瓜、鸭等性凉的食物。同时，不要吃得过饱，以免引起气血运行不畅，更不要饮酒御寒。
+        </view>
+         <view class="about_title_img" >
+        <image src="http://xhjd.wm52.mingtengnet.com/upload/2018-07-17/6366743915687070391722298.png" style="width:100%;" mode="widthFix"></image>
+    </view>
+      <view class="about_title_img" >
+        <image src="http://xhjd.wm52.mingtengnet.com/upload/2018-07-17/6366742102535499802235070.png" style="width:100%;" mode="widthFix"></image>
+    </view>
+
+        <view class="wxParse" style='white-space: pre-wrap;'>
+适合冬季的补血养血粥
+
+材料：枸杞、红枣、花生、莲子、南瓜粉、小米、黑豆、桂圆等。
+
+作用：此粥能润燥，安神，增强免疫力，补血养血，防癌，补充人体所需各种维生素和矿物质。
+
+据《本草纲目》记载：枸杞“滋肾润肺，明目”；红枣“补中益气，养血生津”；黑豆“治水、消胀、下气、治风热而活血解毒，常食黑豆，可百病不生”。
+
+据《滇南本草》记载：小米“主滋阴，养肾气，健脾胃，暖中”。
+        </view> 
+    </view> 
+
+  </view>
+
+<!-- <view class='dh'>
+  <view class='tb' bindtap='about'>
+    <image  src='../../image/home-2.png' style=' width: 40rpx;margin-top:10rpx;' mode='widthFix'></image>
+    <text class='tt' style='font-size:26rpx;'>经营范围</text>
+  </view>
+  <view class='tb' bindtap='he'>
+  <image  src='../../image/cp-2 (2).png' style=' width: 40rpx;margin-top:10rpx;' mode='widthFix'></image>
+    <text class='tt'>房间介绍</text>
+  </view>
+  <view class='tb' bindtap="openMap">
+  <image  src='../../image/lx-1.png' style=' width: 40rpx;margin-top:10rpx;' mode='widthFix'></image>
+    <text class='tt'>联系我们</text>
+  </view></view> -->

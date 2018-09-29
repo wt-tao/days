@@ -1,0 +1,9 @@
+
+      <block wx:if="{{list == undefined}}"> 
+        <image src="../../image/11.jpg" style="width:100%;margin-top:40%;" mode="widthFix"></image>
+      </block>
+      <block wx:if="{{num == 1}}">
+       <image src="{{list}}" style="width:100%;margin-top:40%;" mode="widthFix"></image>
+      </block>
+
+

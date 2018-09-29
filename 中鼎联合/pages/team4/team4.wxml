@@ -1,0 +1,39 @@
+
+  <view class="page" style='height:1080rpx;overflow-y: scroll;' >
+  <!-- <view class="page" style='height:1000rpx;overflow-y: scroll;' > -->
+  
+    <view class="about_title">
+  茶房·KTV
+    </view>
+   
+    <view class="about_title_info" style="margin-top:20rpx;">
+         <import src="../../wxParse/wxParse.wxml"/> 
+        <view class="wxParse" style='white-space: pre-wrap;'>
+茶房：茶房大小包间50多个，开设麻将、象棋、围棋、扑克等项目，能同时接待1000人左右。
+        </view>
+         <view class="about_title_img">
+        <image src="http://xhjd.wm52.mingtengnet.com/upload/2018-07-17/6366744471387351645960839.jpg" style="width:100%;" mode="widthFix"></image>
+    </view> 
+    <view class="wxParse" style='white-space: pre-wrap;'>
+KTV:全新点歌系统，环绕立体音响设备，是您朋友聚会，同学Happy的理想场所。   
+        </view>
+        <view class="about_title_img">
+        <image src="http://xhjd.wm52.mingtengnet.com/upload/2018-07-17/6366744473608156833873343.jpg" style="width:100%;" mode="widthFix"></image>
+    </view> 
+    </view> 
+
+  </view>
+
+<!-- <view class='dh'>
+  <view class='tb' bindtap='about'>
+    <image  src='../../image/home-2.png' style=' width: 40rpx;margin-top:10rpx;' mode='widthFix'></image>
+    <text class='tt' style='font-size:26rpx;'>经营范围</text>
+  </view>
+  <view class='tb' bindtap='he'>
+  <image  src='../../image/cp-2 (2).png' style=' width: 40rpx;margin-top:10rpx;' mode='widthFix'></image>
+    <text class='tt'>房间介绍</text>
+  </view>
+  <view class='tb' bindtap="openMap">
+  <image  src='../../image/lx-1.png' style=' width: 40rpx;margin-top:10rpx;' mode='widthFix'></image>
+    <text class='tt'>联系我们</text>
+  </view></view> -->

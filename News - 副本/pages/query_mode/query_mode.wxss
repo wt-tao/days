@@ -1,0 +1,32 @@
+.query_img{
+  width: 100%;
+  overflow: auto;
+  text-align: center;
+  margin-top:50rpx;
+}
+
+.query_input{
+  width: 90%;
+  margin-left: 5%;
+  overflow: auto;
+  background-color: white;
+  border-radius: 10rpx;
+  border:1px solid #ccc;
+  margin-top:20rpx; 
+}
+.textarea{
+    width: 93%;
+    height: 300rpx;
+    margin-left:7%;
+    margin-top:20rpx; 
+    font-size:30rpx;
+    color: #999999;
+    background-color: white;
+}
+  .button{
+    width: 80%;
+    margin-left: 10%;
+    color: white;
+    background-color: #ffa200;
+    margin-top: 50rpx;
+  }

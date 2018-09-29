@@ -1,0 +1,45 @@
+
+  <view class="page" style='height:1080rpx;overflow-y: scroll;' > 
+    <view class="about_title">
+      “融融端午情 团圆家万兴”
+    </view>
+    <view class="detail-other" style='text-'>
+    <text class="date" style='margin-left:50rpx;'>2015-06-13</text>
+  </view>
+    <view class="about_title_info" style="margin-top:20rpx;">
+         <import src="../../wxParse/wxParse.wxml"/> 
+        <view class="wxParse">
+             
+端午的来历
+
+端午节为每年农历五月初五，又称端阳节、午日节、五月节、五日节、艾节、端五、重午、重五、午日、夏节、蒲节，是夏季的一个驱除瘟疫的节日，也是纪念楚国诗人屈原的日子。
+        </view>
+         <view class="about_title_img" >
+        <image src="http://xhjd.wm52.mingtengnet.com/upload/2018-07-17/6366743876336573647472097.jpg" style="width:100%;" mode="widthFix"></image>
+    </view>
+
+        <view class="wxParse" style='white-space: pre-wrap;'>
+1）端午当天来店消费顾客，每桌赠送西蜀自制香粽和盐蛋各一份。
+
+2）端午当天，凡在西蜀人家消费的顾客均享受菜品8.5折，棋牌7折，客房5折的优惠折扣。
+3）西蜀人家餐厅特推出精美实惠端午团园宴、特价端午菜品。 
+
+4）凡在西蜀人家消费的顾客，可特价购买驱瘟除疫礼包、五子登科礼包、精美香粽礼包等。
+        </view> 
+    </view> 
+
+  </view>
+<!-- 
+<view class='dh'>
+  <view class='tb' bindtap='about'>
+    <image  src='../../image/home-2.png' style=' width: 40rpx;margin-top:10rpx;' mode='widthFix'></image>
+    <text class='tt' style='font-size:26rpx;'>经营范围</text>
+  </view>
+  <view class='tb' bindtap='he'>
+  <image  src='../../image/cp-2 (2).png' style=' width: 40rpx;margin-top:10rpx;' mode='widthFix'></image>
+    <text class='tt'>房间介绍</text>
+  </view>
+  <view class='tb' bindtap="openMap">
+  <image  src='../../image/lx-1.png' style=' width: 40rpx;margin-top:10rpx;' mode='widthFix'></image>
+    <text class='tt'>联系我们</text>
+  </view></view> -->

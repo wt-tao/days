@@ -1,0 +1,42 @@
+
+  <view class="page" style='height:1080rpx;overflow-y: scroll;' >
+  
+    <view class="about_title">
+  餐饮
+    </view>
+   
+    <view class="about_title_info" style="margin-top:20rpx;">
+         <import src="../../wxParse/wxParse.wxml"/> 
+        <view class="wxParse" style='white-space: pre-wrap;'>
+     ◆四合院私房菜会所
+
+       西蜀人家四合院精集蜀西建筑特点和江南园林构景手法，以忠、孝、礼、义等为文化主体，并将蜀风雅韵置于其中，以院落为载体诠释中华民族“忠孝、礼义”等传统文化。七个别门独户，匠心独具、风格相同的院落具有很好的私密性，是您商务会谈、宴请的理想场所。
+        </view>
+         <view class="about_title_img">
+        <image src="http://xhjd.wm52.mingtengnet.com/upload/2018-07-17/6366744382460398135335810.jpg" style="width:100%;" mode="widthFix"></image>
+    </view> 
+    <view class="wxParse" style='white-space: pre-wrap;'>
+    ◆嘉和宴会厅
+
+     中式典雅风格，气势恢宏、庄严大气，大厅采用无柱式设计，面积1200㎡，可容纳700余人同时用餐，配有舞台、专业灯光、影像等设施，是西蜀人家为大型婚、寿宴、茶话会、发布会等量身打造的有一精品。。
+        </view>
+        <view class="about_title_img">
+        <image src="http://xhjd.wm52.mingtengnet.com/upload/2018-07-17/6366744384610305406634105.jpg" style="width:100%;" mode="widthFix"></image>
+    </view> 
+    </view> 
+
+  </view>
+<!-- 
+<view class='dh'>
+  <view class='tb' bindtap='about'>
+    <image  src='../../image/home-2.png' style=' width: 40rpx;margin-top:10rpx;' mode='widthFix'></image>
+    <text class='tt' style='font-size:26rpx;'>经营范围</text>
+  </view>
+  <view class='tb' bindtap='he'>
+  <image  src='../../image/cp-2 (2).png' style=' width: 40rpx;margin-top:10rpx;' mode='widthFix'></image>
+    <text class='tt'>房间介绍</text>
+  </view>
+  <view class='tb' bindtap="openMap">
+  <image  src='../../image/lx-1.png' style=' width: 40rpx;margin-top:10rpx;' mode='widthFix'></image>
+    <text class='tt'>联系我们</text>
+  </view></view> -->

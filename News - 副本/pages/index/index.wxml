@@ -1,0 +1,59 @@
+<image src="../../image/1.jpg" style="width:100%;" mode="widthFix"></image>
+<image src="../../image/915585656.png" style="width:100%;" mode="widthFix"></image>
+
+<view class="tab_box">
+   <view class="tab_one" bindtap="gan">
+     <image src="../../image/3.jpg" style="width:90%;;height:230rpx;"></image>
+   </view>
+   <view class="tab_two" bindtap="query">
+     <image src="../../image/4.jpg" style="width:90%;height:230rpx;"></image>
+   </view> 
+    <view class="tab_two" bindtap="submit">
+     <image src="../../image/5.jpg" style="width:90%;;height:230rpx;"></image>
+   </view> 
+</view>
+
+<view class="tab_box">
+   <view class="tab_one" bindtap="about">
+     <image src="../../image/6.jpg" style="width:90%;;height:230rpx;"></image>
+   </view>
+   <view class="tab_therr" bindtap="he">
+     <image src="../../image/7.jpg" style="width:95%;height:230rpx;"></image>
+   </view> 
+</view>
+
+<view class="new">
+   <view class="new_title">
+      <view class="new_left">
+           行业新闻动态	
+      </view>
+      <view class="new_right" bindtap="newsss">
+          查看更多>>
+      </view>
+   </view>
+
+
+      <block wx:for="{{list}}">
+          <view class="info" bindtap="xiangqing" id="{{item.id}}">
+              <view class="info_left">
+                <image src="{{item.images}}" class="info_img"></image>
+              </view>
+
+              <view class="info_right">
+                  <view class="info_title">
+                  {{item.title}}
+                  </view>
+                  <view class="info_miaoshu">
+                    {{item.description}}
+                  </view>
+                  <view class="info_time">
+                     {{item.sendtime}}
+                  </view>
+              </view>
+
+            </view>
+      </block>
+</view>
+
+
+

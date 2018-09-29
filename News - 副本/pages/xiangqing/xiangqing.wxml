@@ -1,0 +1,20 @@
+
+
+
+
+
+<view class="title">
+     {{list.title}}
+</view>
+
+<view class="time">
+{{list.addtime}}
+</view>
+
+
+<view class="content">
+    <import src="../../wxParse/wxParse.wxml"/>
+  <view class="wxParse">
+      <template is="wxParse" data="{{wxParseData:article.nodes}}"/>
+  </view>
+</view>

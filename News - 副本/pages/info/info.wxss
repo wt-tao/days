@@ -1,0 +1,122 @@
+
+page{
+  background-color: #f2f2f2;
+  color: #808080
+}
+
+
+.classname1{
+  width: 95%;
+  margin-left: 2.5%;
+  height: 60rpx;
+  line-height:60rpx;
+  margin-top: 20rpx;
+}
+.image_box{
+  width: 10%;
+  float: left;
+  overflow: auto;
+}
+.box{
+  width: 90%;
+  float: left;
+  overflow: auto;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 50rpx;
+}
+.box_left{
+  width: 80%;
+  float: left;
+  overflow: auto;
+}
+.box_right{
+  width: 20%;
+  float: left;
+  overflow: auto;
+  text-align: center;
+}
+.info{
+  width: 95%;
+  margin-left: 2.5%;
+  height: 70rpx;
+  line-height:70rpx;
+  margin-top: 50rpx;
+  background-color: #ffa200;
+  color: white;
+  text-align: center;
+  font-size:30rpx;
+  border-radius: 20rpx 20rpx 0 0;
+}
+.xiangiqng{
+  width: 95%;
+  margin-left: 2.5%;
+  overflow: auto;
+  background-color: white;
+  font-size: 28rpx;
+  border:1px solid #ccc;
+  box-sizing: border-box;
+  border-radius:0 0 20rpx 20rpx;
+  padding-bottom:50rpx; 
+}
+.ziliao{
+  width: 95%;
+  margin-left:2.5%;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-bottom:1px solid #ccc;
+}
+.ziliao_left{
+  width: 20%;
+  float: left;
+  height: 80rpx;
+}
+.ziliao_right{
+  width: 80%;
+  float: left;
+  height: 80rpx;
+}
+.ziliao_center{
+  width: 60%;
+  float: left;
+  height: 80rpx;
+}
+.ziliao_right2{
+    width: 20%;
+  float: left;
+  height: 80rpx;
+  text-align: center;
+}
+.wuliu{
+  width: 95%;
+  margin-left:2.5%; 
+  overflow: auto;
+  border: 1px solid #ccc;
+  border-bottom:0px;
+  box-sizing: border-box;
+}
+.wuliu_box{
+  width: 100%;
+  overflow: auto;
+  border-bottom: 1px solid #ccc;
+}
+.wiliu_left{
+  width: 30%;
+  float: left;
+  overflow: auto;
+
+  text-align: center;
+}
+.wiliu_center{
+  width: 10%;
+  float: left;
+  overflow: auto; 
+  text-align: center;
+}
+.wiliu_right{
+  width: 60%;
+  float: left;
+  overflow: auto; 
+  text-align: center;
+}

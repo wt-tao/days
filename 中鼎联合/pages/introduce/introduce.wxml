@@ -1,0 +1,41 @@
+<!--pages/introduce/introduce.wxml-->
+ <view class="page" style='height:1080rpx;overflow-y: scroll;'>
+    <view class="about_title">
+   四川星慧酒店管理集团有限公司
+    </view>
+    
+    <view class="about_title_info" style="margin-top:20rpx;">
+         <import src="../../wxParse/wxParse.wxml"/> 
+        <view class="wxParse" style='white-space: pre-wrap;'>
+    四川星慧酒店管理集团有限公司成立于2003年，位于成都·华阳·华府大道，是一家以金融投资、房产开发、酒店管理为核心，涉足工程建设、园林景观、物业管理、商品砼材等领域的大型控股集团。
+    
+　　公司始终坚持绿色健康、永续生态的开发经营理念，作为四川省五星级乡村酒店评定标准的发源地，建设了 “星慧·西蜀人家”、“ 星慧·锦绣城”等四川省精品五星级乡村酒店标杆项目以及“蜀郡”、“棠湖帝景”等地标房产项目。正在筹建“星慧国际酒店”、“ 星慧·乐谐园”、“ 星慧·丽崇庄”以及“锦绣华西书香小镇”等项目。
+　　
+  公司以“修己尊贤，厚德载道”为企业宗旨，坚持“同心多元化，纵深一体化”的发展战略，始终遵循诚实守信、追求卓越的理念，为顾客提供一流的产品和服务，深受广大客户和消费者信赖。“星慧®”于2012年认定为成都市著名商标，多次入选成都市餐饮百强企业，并被四川省旅游产业领导小组确定其为“旅游标准化示范单位”。
+
+  星慧人：坚定人生的信念，高贵的德行修养，完美的人格魅力
+        </view>
+    </view> 
+
+     <view class="about_title_img" >
+        <image src="http://xhjd.wm52.mingtengnet.com/upload/2018-07-17/6366741620875633771232955.jpg" style="width:100%;" mode="widthFix"></image>
+    </view> 
+     <view class="about_title_img" >
+        <image src="http://xhjd.wm52.mingtengnet.com/upload/2018-07-14/14113410657.png" style="width:100%;" mode="widthFix"></image>
+    </view> 
+    
+  </view>
+  
+<!-- <view class='dh'>
+  <view class='tb' bindtap='about'>
+    <image  src='../../image/home-2.png' style=' width: 40rpx;margin-top:10rpx;' mode='widthFix'></image>
+    <text class='tt' style='font-size:26rpx;'>经营范围</text>
+  </view>
+  <view class='tb' bindtap='he'>
+  <image  src='../../image/cp-2 (2).png' style=' width: 40rpx;margin-top:10rpx;' mode='widthFix'></image>
+    <text class='tt'>房间介绍</text>
+  </view>
+  <view class='tb' bindtap="openMap">
+  <image  src='../../image/lx-1.png' style=' width: 40rpx;margin-top:10rpx;' mode='widthFix'></image>
+    <text class='tt'>联系我们</text>
+  </view></view> -->

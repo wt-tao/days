@@ -1,0 +1,20 @@
+      <block wx:for="{{list}}">
+          <view class="info" bindtap="xiangqing" id="{{item.id}}">
+              <view class="info_left">
+                <image src="{{item.images}}" class="info_img"></image>
+              </view>
+
+              <view class="info_right">
+                  <view class="info_title">
+                  {{item.title}}
+                  </view>
+                  <view class="info_miaoshu">
+                   {{item.description}}
+                  </view>
+                  <view class="info_time">
+                     {{item.sendtime}}
+                  </view>
+              </view>
+
+            </view>
+      </block>

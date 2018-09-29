@@ -1,0 +1,25 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/about/about",
+    "pages/gan/gan",
+    "pages/he/he",
+    
+   
+    "pages/info/info",
+    "pages/query_mode/query_mode",
+    "pages/new/new",
+    "pages/xiangqing/xiangqing",
+    "pages/query/query",
+    "pages/sign/sign",
+    "pages/submit/submit",
+   
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}

@@ -1,0 +1,31 @@
+
+  <view class="page" style='height:1000rpx;overflow-y: scroll;' wx:for='{{product}}'>
+   <view class="about_title_img">
+        <image src="{{url}}{{item.product4}}" style="width:100%;" mode="widthFix"></image>
+    </view> 
+    <view class="about_title">
+  {{item.product1}} 
+    </view>
+   
+    <view class="about_title_info" style="margin-top:20rpx;">
+         <import src="../../wxParse/wxParse.wxml"/> 
+        <view class="wxParse">
+             <template is="wxParse" data="{{wxParseData:da.nodes}}"/>  
+        </view>
+    </view> 
+
+  </view>
+
+<!-- <view class='dh'>
+  <view class='tb' bindtap='about'>
+    <image  src='../../image/home-2.png' style=' width: 40rpx;margin-top:10rpx;' mode='widthFix'></image>
+    <text class='tt' style='font-size:26rpx;'>经营范围</text>
+  </view>
+  <view class='tb' bindtap='he'>
+  <image  src='../../image/cp-2 (2).png' style=' width: 40rpx;margin-top:10rpx;' mode='widthFix'></image>
+    <text class='tt'>房间介绍</text>
+  </view>
+  <view class='tb' bindtap="openMap">
+  <image  src='../../image/lx-1.png' style=' width: 40rpx;margin-top:10rpx;' mode='widthFix'></image>
+    <text class='tt'>联系我们</text>
+  </view></view> -->

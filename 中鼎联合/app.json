@@ -1,0 +1,28 @@
+{
+  "pages":[
+    
+    "pages/index/index",
+"pages/about/about",
+    "pages/tel_my/tel_my",
+    "pages/he/he",
+    "pages/team1/team1",
+    "pages/team2/team2",
+    "pages/team3/team3",
+    "pages/team4/team4",
+    "pages/team5/team5",
+    "pages/team6/team6",
+    "pages/major1/major1",
+    "pages/major2/major2",
+    "pages/list1/list1",
+    "pages/list2/list2",
+    "pages/list3/list3",
+    "pages/list4/list4",
+    "pages/introduce/introduce"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}

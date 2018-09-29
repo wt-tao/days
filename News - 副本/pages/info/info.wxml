@@ -1,0 +1,142 @@
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <view class="classname1">
+    <view class="image_box">
+        <image src="../../image/aaa.png" style="width:50rpx;height:60rpx;"></image>
+    </view>
+    <view class="box">
+        <view class="box_left">
+          <input bindinput="indss" type="text" name="sousuo" style="width:90%;margin-left:10%;height:60rpx;font-size:28rpx;color:#808080"/>
+        </view>
+        <view class="box_right">
+          <image id="{{num}}" bindtap="dasdasd" src="../../image/sousuo.png" style="width:40rpx;height:40rpx;margin-top:10rpx;"></image>
+          
+        </view>
+    </view>
+  </view>
+</form>
+
+
+<block wx:for="{{list}}" wx:for-item="name" >
+<view class="info">
+    查询结果
+</view>
+    <view class="xiangiqng">
+      <view class="ziliao">
+          <view class="ziliao_left">
+              客户姓名
+          </view>
+          <view class="ziliao_right">
+              {{name.username}}
+          </view>
+      </view>
+
+      <view class="ziliao">
+          <view class="ziliao_left">
+              运单号
+          </view>
+          <view class="ziliao_center">
+            {{name.orderid}}
+          </view>
+          <view class="ziliao_right2">
+                <block wx:if="{{name.status == 0}}">
+                       [<text style="color:#3ea52a">待确认</text>]
+                </block>
+                <block wx:if="{{name.status == 1}}">
+                      [<text style="color:#3ea52a">已确认</text>]
+                </block>
+                <block wx:if="{{name.status == 2}}">
+                      [<text style="color:#3ea52a">已收货</text>]
+                </block>
+                <block wx:if="{{name.status == 3}}">
+                     [<text style="color:#3ea52a"> 已取消</text>]
+                </block>
+                 <block wx:if="{{name.status == 4}}">
+                      [<text style="color:#3ea52a">已完成</text>]
+                </block>
+              
+          </view>
+      </view>
+
+      <view class="ziliao" style="border-bottom:0px;">
+          <view class="ziliao_left">
+              到货地点
+          </view>
+          <view class="ziliao_right">
+             {{name.province}}{{name.city}}{{name.district}}{{name.address}}
+          </view>
+      </view>
+
+      <view class="wuliu">
+        <view style="width:100%;height:80rpx;line-height:80rpx;">
+          物流信息
+        </view>
+        <block wx:for="{{name.data}}">
+          <block wx:if="{{index == 0}}">
+            <view class="wuliu_box">
+              <view class="wiliu_left">
+                    <view style="width:100%;height:50rpx;margin-top:30rpx;">{{item.data}}</view>
+                    <view style="width:100%;height:50rpx;">{{item.time}}</view>
+              </view>
+              <view class="wiliu_center">
+                  <image src="../../image/c2.jpg" style="width:63rpx;height:140rpx;display:block"></image>  
+              </view>
+              <view class="wiliu_right" >
+                  <view style="margin-top:30rpx;">{{item.content}}</view>
+              </view>
+            </view>
+          </block>
+
+
+         <block wx:if="{{index == 4}}">
+          <view class="wuliu_box">
+            <view class="wiliu_left">
+                  <view style="width:100%;height:50rpx;margin-top:30rpx;">2017.09.16</view>
+                  <view style="width:100%;height:50rpx;">19:30</view>
+            </view>
+            <view class="wiliu_center">
+                <image src="../../image/c1.jpg" style="width:63rpx;height:140rpx;display:block"></image>  
+            </view>
+            <view class="wiliu_right" >
+                <view style="margin-top:30rpx;">{{item.content}}</view>
+                <view style="width:100%;height:50rpx;line-height:50rpx;">
+                    <view style="width:30%;float:left;text-align:right;">
+                      <image src="../../image/shou.jpg" style="width:40rpx;height:40rpx"></image>
+                    </view>
+                    <view  bindtap="tupian" id="{{name.orderid}}" style="width:65%;float:left;text-align:left;margin-left:5%;color:#ffa200">
+                        想看签收图片就戳我
+                    </view>
+                </view>
+            </view>
+          </view>
+        </block>
+
+
+          <block wx:else>
+            <view class="wuliu_box">
+              <view class="wiliu_left">
+                    <view style="width:100%;height:50rpx;margin-top:30rpx;">2017.09.16</view>
+                    <view style="width:100%;height:50rpx;">19:30</view>
+              </view>
+              <view class="wiliu_center">
+                  <image src="../../image/c3.jpg" style="width:65rpx;height:140rpx;display:block"></image>  
+              </view>
+              <view class="wiliu_right" >
+                  <view style="margin-top:30rpx;">{{item.content}}</view>
+              </view>
+            </view>
+          </block>
+
+
+    
+       
+
+
+        </block>
+
+
+
+
+
+      </view>
+    </view>
+</block>

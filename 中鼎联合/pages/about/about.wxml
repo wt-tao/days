@@ -1,0 +1,148 @@
+
+  <view class="page"  style='height:1080rpx;overflow-y: scroll;' >
+    <view class="about_title">餐饮</view>
+
+  <view class='kuang' >
+      <view class='kuang_list' >
+        <view class='kuang_list_tx'>
+             <image src='http://xhjd.wm52.mingtengnet.com/upload/2018-07-17/17171114880.jpg'style="width:100%;height:100%" mode="aspectFill"></image> 
+        </view>
+        <view class='kuang_list_right'>
+          <view class='kuang_list_right_name'>
+            <view class='name' style='font-weight: 700;'></view>
+            <view class='name'></view>
+          </view>
+          <view class='kuang_list_right_intro'> 
+            <view class='te'>西蜀人家四合院精集蜀西建筑特点和江南园林构景手法，以忠、孝、礼、义等为文化主体，并将蜀风雅韵置于其中，以院落为...</view>
+          </view>
+          <view class="new_right" bindtap="news1" style='margin-left:200rpx;font-size:28rpx;margin-top:10rpx;' id='{{item.news0}}'>
+          查看详情>>
+      </view>
+        </view>
+      </view>
+  </view>
+
+   <view class="about_title">西蜀家宴</view>
+
+  <view class='kuang' >
+      <view class='kuang_list' >
+        <view class='kuang_list_tx'>
+             <image src='http://xhjd.wm52.mingtengnet.com/upload/2018-07-17/17173115535.jpg'style="width:100%;height:100%" mode="aspectFill"></image> 
+        </view>
+        <view class='kuang_list_right'>
+          <view class='kuang_list_right_name'>
+            <view class='name' style='font-weight: 700;'></view>
+            <view class='name'></view>
+          </view>
+          <view class='kuang_list_right_intro'> 
+            <view class='te'>西蜀人家四合院精集蜀西建筑特点和江南园林构景手法，以忠、孝、礼、义等为文化主体，并将蜀风雅韵置于其中，以院落为...</view>
+          </view>
+          <view class="new_right" bindtap="news2" style='margin-left:200rpx;font-size:28rpx;margin-top:10rpx;' id='{{item.news0}}'>
+          查看详情>>
+      </view>
+        </view>
+      </view>
+  </view>
+
+  <view class="about_title">运动健身</view>
+
+  <view class='kuang' >
+      <view class='kuang_list' >
+        <view class='kuang_list_tx'>
+             <image src='http://xhjd.wm52.mingtengnet.com/upload/2018-07-18/18105256598.jpg'style="width:100%;height:100%" mode="aspectFill"></image> 
+        </view>
+        <view class='kuang_list_right'>
+          <view class='kuang_list_right_name'>
+            <view class='name' style='font-weight: 700;'></view>
+            <view class='name'></view>
+          </view>
+          <view class='kuang_list_right_intro'> 
+            <view class='te'>运动馆全域wifi覆盖，配套设施齐全，还专门为会员提供免费停车、淋浴、物品寄存服务，场馆还提供专业教学陪练、拉线服...</view>
+          </view>
+          <view class="new_right" bindtap="news3" style='margin-left:200rpx;font-size:28rpx;margin-top:10rpx;' id='{{item.news0}}'>
+          查看详情>>
+      </view>
+        </view>
+      </view>
+  </view>
+
+  <view class="about_title">茶房·KTV</view>
+
+  <view class='kuang' >
+      <view class='kuang_list' >
+        <view class='kuang_list_tx'>
+             <image src='http://xhjd.wm52.mingtengnet.com/upload/2018-07-17/17171818398.jpg'style="width:100%;height:100%" mode="aspectFill"></image> 
+        </view>
+        <view class='kuang_list_right'>
+          <view class='kuang_list_right_name'>
+            <view class='name' style='font-weight: 700;'></view>
+            <view class='name'></view>
+          </view>
+          <view class='kuang_list_right_intro'> 
+            <view class='te'>茶房：大小包间50多个，开设麻将、象棋、围棋、扑克等项目，能同时接待1000人左右。 KTV:全新点歌系统，环绕立体音响...</view>
+          </view>
+          <view class="new_right" bindtap="news4" style='margin-left:200rpx;font-size:28rpx;margin-top:10rpx;' id='{{item.news0}}'>
+          查看详情>>
+      </view>
+        </view>
+      </view>
+  </view>
+
+   <view class="about_title">会议</view>
+
+  <view class='kuang' >
+      <view class='kuang_list' >
+        <view class='kuang_list_tx'>
+             <image src='http://xhjd.wm52.mingtengnet.com/upload/2018-07-18/18105936834.jpg'style="width:100%;height:100%" mode="aspectFill"></image> 
+        </view>
+        <view class='kuang_list_right'>
+          <view class='kuang_list_right_name'>
+            <view class='name' style='font-weight: 700;'></view>
+            <view class='name'></view>
+          </view>
+          <view class='kuang_list_right_intro'> 
+            <view class='te'>不同类型大小会议室11个，能接待700人左右，满足您培训、活动的需要。</view>
+          </view>
+          <view class="new_right" bindtap="news5" style='margin-left:200rpx;font-size:28rpx;margin-top:10rpx;' id='{{item.news0}}'>
+          查看详情>>
+      </view>
+        </view>
+      </view>
+  </view>
+  
+   <view class="about_title">住宿</view>
+
+  <view class='kuang' >
+      <view class='kuang_list' >
+        <view class='kuang_list_tx'>
+             <image src='http://xhjd.wm52.mingtengnet.com/upload/2018-07-17/1717859736.jpg'style="width:100%;height:100%" mode="aspectFill"></image> 
+        </view>
+        <view class='kuang_list_right'>
+          <view class='kuang_list_right_name'>
+            <view class='name' style='font-weight: 700;'></view>
+            <view class='name'></view>
+          </view>
+          <view class='kuang_list_right_intro'> 
+            <view class='te'>西蜀人家客房标准间、单间、套房能接待120人左右。</view>
+          </view>
+          <view class="new_right" bindtap="news6" style='margin-left:200rpx;font-size:28rpx;margin-top:10rpx;' id='{{item.news0}}'>
+          查看详情>>
+      </view>
+        </view>
+      </view>
+  </view>
+
+ </view>
+<!-- <view class='dh'>
+  <view class='tb' bindtap='about'>
+    <image  src='../../image/home-2.png' style=' width: 40rpx;margin-top:10rpx;' mode='widthFix'></image>
+    <text class='tt' style='font-size:26rpx;'>经营范围</text>
+  </view>
+  <view class='tb' bindtap='he'>
+  <image  src='../../image/cp-2 (2).png' style=' width: 40rpx;margin-top:10rpx;' mode='widthFix'></image>
+    <text class='tt'>房间介绍</text>
+  </view>
+  <view class='tb' bindtap="openMap">
+  <image  src='../../image/lx-1.png' style=' width: 40rpx;margin-top:10rpx;' mode='widthFix'></image>
+    <text class='tt'>联系我们</text>
+  </view></view> -->

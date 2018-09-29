@@ -1,0 +1,52 @@
+
+  <view class="page" style='height:1080rpx;overflow-y: scroll;' > 
+    <view class="about_title">
+     西蜀人家运动馆盛大开馆倒计时
+    </view>
+    <view class="detail-other" style='text-'>
+    <text class="date" style='margin-left:50rpx;'>2013-09-10</text>
+  </view>
+    <view class="about_title_info" style="margin-top:20rpx;">
+         <import src="../../wxParse/wxParse.wxml"/> 
+        <view class="wxParse" style='white-space: pre-wrap;'>
+时间：9月20日
+
+开馆试运行期间免费体验  更多优惠敬请进馆详询
+
+场馆介绍：
+
+　　西蜀运动馆位于华阳西蜀人家酒店内，交通便利，场馆面积约2000平米，场馆采用TPU环保材质防滑地面，标准配置8片羽毛球场，3个专业壁球馆，乒乓球等球类运动项目，场馆外设有2片标准网球场，2片篮球场，能满足你不同运动健身需求。
+
+　　运动馆全域wifi覆盖，配套设施齐全，还专门为会员提供免费停车、淋浴、物品寄存服务，场馆还提供专业教学陪练、拉线服务。在运动健身之余还可感受西蜀人家酒店餐饮娱乐、会务住宿、商务宴请诸多休闲服务项目。
+
+　　西蜀运动馆竭诚为您营造一个完美的运动休闲空间，让您在享受运动健康的同时得到全身心的放松。
+
+项目：羽毛球 壁球 网球 乒乓球 篮球
+
+会员卡火热办理中…
+
+注：本项目解释权归西蜀运动馆所有
+
+地址：成都·华阳·华府大道158号
+
+电话：028-85319366     传真：028-85322588
+
+网址：www.xishurenjian.cn   
+        </view> 
+    </view> 
+
+  </view>
+
+<!-- <view class='dh'>
+  <view class='tb' bindtap='about'>
+    <image  src='../../image/home-2.png' style=' width: 40rpx;margin-top:10rpx;' mode='widthFix'></image>
+    <text class='tt' style='font-size:26rpx;'>经营范围</text>
+  </view>
+  <view class='tb' bindtap='he'>
+  <image  src='../../image/cp-2 (2).png' style=' width: 40rpx;margin-top:10rpx;' mode='widthFix'></image>
+    <text class='tt'>房间介绍</text>
+  </view>
+  <view class='tb' bindtap="openMap">
+  <image  src='../../image/lx-1.png' style=' width: 40rpx;margin-top:10rpx;' mode='widthFix'></image>
+    <text class='tt'>联系我们</text>
+  </view></view> -->

@@ -1,0 +1,113 @@
+<view class='page'>
+<image src="../../image/顶部.png" style="width:100%;" mode="widthFix"></image>
+<image src="http://xhjd.wm52.mingtengnet.com/upload/2018-07-18/1816127238.png" style="width:100%;" mode="widthFix"></image>
+
+<view class="tab_box" >
+  <view class='sqer' >
+    <view class='sqer_logo'>公司简介：</view>
+    <text style='font-size:30rpx;'>四川星慧酒店管理集团有限公司成立于2003年，位于成都·华阳·华府大道，是一家以金融投资、房产开发、酒店管理为核心，涉足工程建设、园林景观、物业管理、商品砼材等领域的大型控股集团...</text>
+      <view class="new_right" bindtap="news" style='margin-left:350rpx;font-size:32rpx;margin-top:15rpx;'>
+          查看更多>>
+      </view>
+  </view>
+</view>
+
+<view class="tab_box">
+   <view class="tab_one" >
+     <image src="http://xhjd.wm52.mingtengnet.com/upload/2018-07-18/1816151489.png" style="width:100%;height:230rpx;"></image>
+   </view>
+</view>
+
+<view class='list'>
+  <view class='list_text'>优惠活动</view>
+  <view class='list_kuang' >
+      <view class='list_img'>
+          <image src='http://xhjd.wm52.mingtengnet.com/upload/2018-07-17/6366743876336573647472097.jpg'  style="width:100%;height:100%" mode="aspectFit"></image>
+      </view>
+      <view class='kkl'>
+          <view class='list_ner'>
+            <text class='tt' style='margin-left:-2rpx'>“融融端午情 团圆家万兴” </text>
+             <view class="new_right" bindtap="news1" style='margin-left:170rpx;font-size:28rpx;margin-top:30rpx;' id='{{item.news0}}'>
+          查看详情>>
+      </view>
+          </view>
+          <view class='list_ners' >
+            <text>2015-06-13</text>
+          </view>
+      </view>
+  </view>
+
+   <view class='list_kuang' >
+      <view class='list_img'>
+          <image src='http://xhjd.wm52.mingtengnet.com/upload/2018-07-17/6366743915687070391722298.png'  style="width:100%;height:100%" mode="aspectFit"></image>
+      </view>
+      <view class='kkl'>
+          <view class='list_ner'>
+            <text class='tt' style='margin-left:-2rpx'>厨师长冬季推荐菜 </text>
+             <view class="new_right" bindtap="news2" style='margin-left:170rpx;font-size:28rpx;margin-top:30rpx;' id='{{item.news0}}'>
+          查看详情>>
+      </view>
+          </view>
+          <view class='list_ners' >
+            <text>2015-06-13</text>
+          </view>
+      </view>
+  </view>
+
+    <view class='list_kuang' >
+      <view class='list_img'>
+          <image src='http://xhjd.wm52.mingtengnet.com/upload/2018-07-18/18103324250.png'  style="width:100%;height:100%" mode="aspectFit"></image>
+      </view>
+      <view class='kkl'>
+          <view class='list_ner'>
+            <text class='tt' style='margin-left:-2rpx'>超值精品套餐 </text>
+             <view class="new_right" bindtap="news3" style='margin-left:170rpx;font-size:28rpx;margin-top:30rpx;' id='{{item.news0}}'>
+          查看详情>>
+      </view>
+          </view>
+          <view class='list_ners' >
+            <text>2014-09-16</text>
+          </view>
+      </view>
+  </view>
+
+<view class='list_kuang' >
+      <view class='list_img'>
+          <image src='http://xhjd.wm52.mingtengnet.com/images/news.png'  style="width:100%;height:100%" mode="aspectFit"></image>
+      </view>
+      <view class='kkl'>
+          <view class='list_ner'>
+            <text class='tt' style='margin-left:-2rpx'>西蜀人家运动馆盛大开馆倒计时 </text>
+             <view class="new_right" bindtap="news4" style='margin-left:170rpx;font-size:28rpx;margin-top:30rpx;' id='{{item.news0}}'>
+          查看详情>>
+      </view>
+          </view>
+          <view class='list_ners' >
+            <text>2013-09-10</text>
+          </view>
+      </view>
+  </view>
+</view>
+
+<view class='bai'>
+    <view class='bq'>2018©四川星慧酒店管理集团有限公司</view>
+        <view class='js'>技术支持：明腾网络</view>
+</view>
+
+</view>
+<view class='dh'>
+  <view class='tb' bindtap='about'>
+    <image  src='../../image/home-2.png' style=' width: 40rpx;margin-top:10rpx;' mode='widthFix'></image>
+    <text class='tt' style='font-size:26rpx;'>经营范围</text>
+  </view>
+  <view class='tb' bindtap='he'>
+  <image  src='../../image/cp-2 (2).png' style=' width: 40rpx;margin-top:10rpx;' mode='widthFix'></image>
+    <text class='tt'>房间介绍</text>
+  </view>
+  <view class='tb' bindtap="openMap">
+  <image  src='../../image/lx-1.png' style=' width: 40rpx;margin-top:10rpx;' mode='widthFix'></image>
+    <text class='tt'>联系我们</text>
+  </view></view>
+
+
+

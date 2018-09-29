@@ -1,0 +1,10 @@
+<view class="query_img">
+  <image src="../../image/logo.png" style="width:20%" mode="widthFix"></image>
+</view>
+
+<form bindsubmit="formSubmit">
+    <view class="query_input">
+        <textarea  placeholder="最多支持10个运单号查询，请以/分割运单号"  name="num" class="textarea"/>
+    </view>
+    <button class="button" formType="submit">查询</button>
+</form>
